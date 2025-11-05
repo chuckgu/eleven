@@ -1,0 +1,15 @@
+[package]
+name = "app-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.13", features = ["default"] }
+bevy_egui = "0.25"
+sim-core = { path = "../sim-core" }
+decision-plugin = { path = "../decision-plugin" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tokio = { version = "1.0", features = ["full"] }

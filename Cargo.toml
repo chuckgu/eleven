@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "crates/app-desktop",
+  "crates/sim-core",
+  "crates/nlg-plugin",
+  "crates/highlight-plugin",
+  "crates/storage"
+, "crates/decision-plugin"]
+resolver = "2"
+
